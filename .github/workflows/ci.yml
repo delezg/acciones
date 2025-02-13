@@ -1,0 +1,12 @@
+name: CI
+
+on:[push]
+
+jobs:
+build:
+runs-on: windows
+
+steps:
+
+-name: que me traiga la hora
+run: date
